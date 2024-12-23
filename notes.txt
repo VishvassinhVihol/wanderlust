@@ -1,0 +1,1 @@
+multer : multer is npm package used to parse file type data.File Parsing: Multer processes incoming form-data that contains files. These files are usually submitted via HTML forms.

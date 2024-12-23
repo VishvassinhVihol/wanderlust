@@ -1,0 +1,135 @@
+/* in this we will create static files for css */
+
+
+
+body{
+     
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+/* in boiler plate body */
+.container{
+    flex: 1;
+}
+/*navbar*/
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+/* for navbar */
+.fa-solid{
+    color: red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+     
+}
+.f-info-socials,.f-info-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.f-info-links a{
+    margin-right: 0.5rem;
+}
+.footer-companyName{
+    margin: 1rem;
+}
+
+/*cards*/
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    
+    font-weight: 400 !important;
+}
+
+/* for a tag  */
+.listing-link {
+    text-decoration: none;
+}
+
+/* card styling */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page */
+.add-btn{
+    background-color: red  !important;
+    border: none !important;
+}
+
+/* btn in edit page */
+.edit-btn{
+    border: none  !important;
+    padding: 1vh 1vw !important;
+}
+
+/* show page */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+
+@media only  screen and (max-width:350px) {
+    .btns{
+        flex-direction: column !important;
+    }
+}
+
+/* map */
+#map {
+    height: 50vh;
+    width: 50vw;
+}
